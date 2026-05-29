@@ -1,87 +1,40 @@
-# 📊 Walmart Sales Performance Dashboard (Power BI)
+# Walmart Sales Performance Dashboard — Power BI
 
-## 🚀 Project Overview
+A comprehensive multi-page Power BI dashboard built on Walmart sales data. Tracks revenue, profit, customer behavior, and product performance across stores, regions, and time periods.
 
-This project presents a **comprehensive Sales Performance Dashboard** built using Power BI.
-It provides deep insights into **revenue, profit, transactions, customer behavior, and product performance**.
+## Numbers at a Glance
+| Metric | Value |
+|--------|-------|
+| Total Revenue | $779.79M |
+| Total Transactions | 561K |
+| Avg Order Value | $1.39K |
+| Total Quantity Sold | 3M units |
+| Revenue per Store | $16M |
+| Total Shipping Cost | $13.45M |
+| YoY Revenue Growth | ~33% consistent |
 
-The dashboard is designed for **business decision-makers** to track KPIs, analyze trends, and identify growth opportunities.
+## Dashboard Pages
+**Page 1 — Executive Summary**
+KPI cards, profit margin trends (Day / Month / Quarter / Year), state-wise map visualization, department-wise profit margin breakdown
 
----
+**Page 2 — Product & Customer Insights**
+Profit by product and category, customer segmentation by gender and age group, top-performing products, YoY comparison (Revenue / Profit / Transactions)
 
-## 📌 Key Features
+## Key Findings
+- Clothing and Electronics drive maximum revenue
+- Consistent ~33% YoY growth across revenue and transactions
+- Customer distribution is balanced across segments
+- Department-wise margins are stable — indicating operational efficiency
 
-### 🔹 Executive Summary (Page 1)
+## Tools Used
+Power BI Desktop · DAX · Power Query · Data Modeling
 
-* Total Revenue: **$779.79M**
-* Total Transactions: **561K**
-* Avg Order Value: **$1.39K**
-* Unique Customers: **1000**
+## Files in This Repo
+- `Customer_Dim.csv`, `Employee_Dim.csv`, `Product_Dim.csv`, `Store_Dim.csv` — Dimension tables
+- `Walmart Sales Report.pdf` — Dashboard export
+- `Walmart_BRD.pdf` — Business requirements document
+- `Walmart_BI_Developer_Guidelines.pptx` — Development guidelines
 
-📊 Visual Insights:
-
-* Profit Margin trend over time (Day, Month, Quarter, Year)
-* State-wise performance (Map visualization)
-* Category & Department-wise profit margin breakdown
-
----
-
-### 🔹 Product & Customer Insights (Page 2)
-
-* Total Quantity Sold: **3M**
-* Revenue per Store: **$16M**
-* Revenue per Customer: **$779.79K**
-* Total Shipping Cost: **$13.45M**
-
-📊 Analysis Includes:
-
-* Profit by Product & Category
-* Customer segmentation (Gender & Age Group)
-* Top-performing products
-* Revenue, Profit, and Transactions YoY comparison
-
----
-
-## 🛠️ Tools & Technologies
-
-* Power BI
-* DAX (Data Analysis Expressions)
-* Data Modeling
-* Data Cleaning (Power Query)
-
----
-
-## 📈 Business Insights
-
-* 📌 Consistent **~33% YoY growth** across revenue & transactions
-* 📌 Categories like **Clothing & Electronics** drive maximum revenue
-* 📌 Customer distribution shows strong engagement across segments
-* 📌 Department-wise margins are stable, indicating operational efficiency
-
----
-
-## 🎯 Key Learnings
-
-* Built interactive dashboards using slicers & filters
-* Implemented **YoY metrics (Revenue, Profit, Transactions)**
-* Improved storytelling with clean UI/UX design
-* Worked with real-world business KPIs
-
----
-
-## 📷 Dashboard Preview
-
-(Add your screenshots here)
-
----
-
-## 🔗 Connect With Me
-
-* 💼 LinkedIn: (Add your link)
-* 💻 GitHub: https://github.com/Devanshtyagi12
-
----
-
-## ⭐ If you like this project
-
-Give it a ⭐ on GitHub and share your feedback!
+## Connect
+- LinkedIn: [linkedin.com/in/devansh-tyagi-091731373](https://www.linkedin.com/in/devansh-tyagi-091731373/)
+- GitHub: [github.com/Devanshtyagi12](https://github.com/Devanshtyagi12)
